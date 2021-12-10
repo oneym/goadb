@@ -23,6 +23,7 @@ var deviceStateStrings = map[string]DeviceState{
 	"offline":      StateOffline,
 	"device":       StateOnline,
 	"unauthorized": StateUnauthorized,
+	"authorizing":  StateUnauthorized,
 }
 
 func parseDeviceState(str string) (DeviceState, error) {
