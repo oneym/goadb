@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/zach-klippenstein/goadb/internal/errors"
-	"github.com/zach-klippenstein/goadb/wire"
+	"github.com/oneym/goadb/internal/errors"
+	"github.com/oneym/goadb/wire"
 )
 
 /*
